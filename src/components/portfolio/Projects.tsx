@@ -110,7 +110,7 @@ export function Projects() {
                 <img
                   src={p.image}
                   alt={p.title}
-                  className="h-72 w-full object-cover object-top transition group-hover:scale-105"
+                  className="h-full w-full object-cover object-top transition group-hover:scale-105"
                 />
               ) : (
                 <>
