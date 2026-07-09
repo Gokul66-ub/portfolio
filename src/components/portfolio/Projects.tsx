@@ -11,7 +11,7 @@ const projects = [
     tags: ["YOLOv8", "PyTorch", "OpenCV", "CNN", "Gradio"],
     gradient: "from-brand-blue/40 via-brand-purple/30 to-brand-cyan/20",
     github:"https://github.com/Gokul66-ub/Smart-city-survelliance",
-    image:"/projects/cl_full dashboard.png"
+    image:"/projects/smart_city.jpeg"
   },
   {
     icon: Scale,
@@ -21,7 +21,7 @@ const projects = [
     tags: ["RAG", "LangChain", "Pinecone", "LlamaCloud", "Streamlit"],
     gradient: "from-brand-cyan/40 via-brand-blue/30 to-brand-purple/20",
     github:"",
-    image:"/projects/ai_legal.png"
+    image:"/projects/legal_ai.jpeg"
   },
   {
     icon: BarChart3,
@@ -31,7 +31,7 @@ const projects = [
     tags: ["Power BI", "DAX", "Power Query", "SQL", "Excel"],
     gradient: "from-brand-purple/40 via-brand-cyan/30 to-brand-blue/20",
     github:"https://github.com/Gokul66-ub/Library-Analytics-Portal",
-    image:"/projects/library_bi.png"
+    image:"/projects/library_portal.jpeg"
   },
   {
     icon: ShoppingBag,
@@ -41,7 +41,7 @@ const projects = [
     gradient: "from-brand-cyan/40 via-brand-purple/30 to-brand-blue/20",
     github: "https://github.com/Gokul66-ub/e-commerce-website",
     demo: "https://shopping-site-dusky.vercel.app/",
-    image:"/projects/evara-shoppping.png"
+    image:"/projects/ecommerce_shop.jpeg"
   },
   {
     icon: Music,
@@ -60,16 +60,7 @@ const projects = [
     gradient: "from-brand-green/40 via-brand-blue/30 to-brand-purple/20",
     github: "https://github.com/Gokul66-ub/sql_p2_library_management",
     demo: "https://spotify-clone-kappa-blush-93.vercel.app/",
-    image:"/projects/spotify-clone.png"
-  },
-  {
-    icon: Database,
-    title: "Library Management System - SQL Analytics",
-    description:
-      "Designed a normalized SQL database with 6 interrelated tables covering branches, employees, members, and book transactions. Implemented stored procedures for automated book issuing/returns, and wrote advanced queries for overdue tracking, fine calculation, and branch-wise performance reporting.",
-    tags: ["SQL", "MySQL", "Database Design", "Stored Procedures"],
-    gradient: "from-brand-blue/40 via-brand-cyan/30 to-brand-purple/20",
-    github: "https://github.com/Gokul66-ub/sql_p2_library_management"
+    image:"/projects/spotify.jpeg"
   },
   {
     icon: Database,
@@ -79,7 +70,18 @@ const projects = [
     tags: ["SQL", "MySQL", "Window Functions", "Python"],
     gradient: "from-brand-cyan/40 via-brand-blue/30 to-brand-purple/20",
     github: "https://github.com/Gokul66-ub/sql_p3_food_delivery_system",
+    image:"/projects/food_delivery.jpeg"
   },
+  {
+    icon: Database,
+    title: "Library Management System - SQL Analytics",
+    description:
+      "Designed a normalized SQL database with 6 interrelated tables covering branches, employees, members, and book transactions. Implemented stored procedures for automated book issuing/returns, and wrote advanced queries for overdue tracking, fine calculation, and branch-wise performance reporting.",
+    tags: ["SQL", "MySQL", "Database Design", "Stored Procedures"],
+    gradient: "from-brand-blue/40 via-brand-cyan/30 to-brand-purple/20",
+    github: "https://github.com/Gokul66-ub/sql_p2_library_management",
+    image:"/projects/library_bi.jpeg"
+  }
 ];
 
 export function Projects() {
