@@ -80,7 +80,7 @@ const projects = [
     tags: ["SQL", "MySQL", "Database Design", "Stored Procedures"],
     gradient: "from-brand-blue/40 via-brand-cyan/30 to-brand-purple/20",
     github: "https://github.com/Gokul66-ub/sql_p2_library_management",
-    image:"/projects/library_bi.jpeg"
+    image:"/projects/library_sql.jpeg"
   }
 ];
 
