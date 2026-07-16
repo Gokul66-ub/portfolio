@@ -71,7 +71,7 @@ const projects = [
     gradient: "from-brand-cyan/40 via-brand-purple/30 to-brand-blue/20",
     github: "https://github.com/Gokul66-ub/tfc_nation",
     demo:'https://tfc-nation-ten.vercel.app/',
-    image: "/projects/tfc_nation.png",
+    image: "/projects/tfc-chicken.png",
   },
   
   {
