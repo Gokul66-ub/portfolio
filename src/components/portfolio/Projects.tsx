@@ -63,15 +63,17 @@ const projects = [
     image:"/projects/spotify.jpeg"
   },
   {
-    icon: Database,
-    title: "Food Delivery System - SQL Analytics",
+    icon: ShoppingBag,
+    title: "TFC Chicken Shop ",
     description:
-      "Designed a normalized database simulating a food delivery platform (customers, restaurants, riders, orders, deliveries) and synthesized realistic data using Python's Faker library. Wrote 20+ advanced SQL queries using window functions and CTEs to analyze customer segmentation, restaurant growth, rider performance, and revenue trends.",
-    tags: ["SQL", "MySQL", "Window Functions", "Python"],
-    gradient: "from-brand-cyan/40 via-brand-blue/30 to-brand-purple/20",
-    github: "https://github.com/Gokul66-ub/sql_p3_food_delivery_system",
-    image:"/projects/food_delivery.jpeg"
+      "Designed a responsive landing page for a fictional chicken shop brand using pure HTML and CSS. Built a clean storefront layout with a hero banner, menu showcase, and contact section, focusing on semantic markup and CSS Flexbox/Grid for a fully responsive, framework-free design.",
+    tags: ["HTML5", "CSS3", "Responsive Design"],
+    gradient: "from-brand-cyan/40 via-brand-purple/30 to-brand-blue/20",
+    github: "https://github.com/Gokul66-ub/tfc_nation",
+    demo:'https://tfc-nation-ten.vercel.app/',
+    image: "/projects/tfc_nation.png",
   },
+  
   {
     icon: Database,
     title: "Library Management System - SQL Analytics",
@@ -81,7 +83,17 @@ const projects = [
     gradient: "from-brand-blue/40 via-brand-cyan/30 to-brand-purple/20",
     github: "https://github.com/Gokul66-ub/sql_p2_library_management",
     image:"/projects/library_sql.jpeg"
-  }
+  },
+  {
+    icon: Database,
+    title: "Food Delivery System - SQL Analytics",
+    description:
+      "Designed a normalized database simulating a food delivery platform (customers, restaurants, riders, orders, deliveries) and synthesized realistic data using Python's Faker library. Wrote 20+ advanced SQL queries using window functions and CTEs to analyze customer segmentation, restaurant growth, rider performance, and revenue trends.",
+    tags: ["SQL", "MySQL", "Window Functions", "Python"],
+    gradient: "from-brand-cyan/40 via-brand-blue/30 to-brand-purple/20",
+    github: "https://github.com/Gokul66-ub/sql_p3_food_delivery_system",
+    image:"/projects/food_delivery.jpeg"
+  },
 ];
 
 export function Projects() {
