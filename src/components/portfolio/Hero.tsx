@@ -106,7 +106,7 @@ export function Hero() {
             <div className="text-center">
              <div className="mx-auto h-58 w-58 overflow-hidden rounded-full border-4 border-cyan-400 shadow-[0_0_35px_rgba(34,211,238,0.4)]">
                 <img
-                  src="/profile.jpeg"
+                  src="/p1.jpeg"
                   alt="Gokul E"
                   className="h-full w-full object-cover"
                 />
